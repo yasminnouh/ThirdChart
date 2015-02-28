@@ -33,8 +33,8 @@
 
         // Set chart options
         var options = {'title':'Pizza Eating',
-                       'width':400,
-                       'height':300};
+                       'width':600,
+                       'height':500};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
