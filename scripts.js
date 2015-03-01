@@ -1,3 +1,19 @@
+
+var myGridlines = {
+	color: '#FF0000',
+	count: '8'}
+
+// Set chart options
+var options = {
+	'title' : 'Pizza Eating',
+	'width' : 600,
+	'height' : 500,
+	'hAxis': {} //end of hAxis
+}; //end of options
+
+
+options.hAxis.gridlines = myGridlines; 
+
   // Load the Visualization API and the piechart package.
   //credit Google with code sample
       google.load('visualization', '1.0', {'packages':['corechart']});
@@ -31,12 +47,9 @@
         data.addColumn('number', 'Slices');
         data.addRows(alltheDataArray);
 
-        // Set chart options
-        var options = {'title':'Pizza Eating',
-                       'width':600,
-                       'height':500};
+        
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
         chart.draw(data, options);
       }
