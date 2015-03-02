@@ -17,49 +17,52 @@
 		</head>
 
   <body>
-  	<div class="container-fluid">
-	
-	<!--this is the row with my chart -->
-	
-	<div class="row">
-		
-	<!-- Div that will hold the pie chart -->
-   
-    <div class="col-md-12" id="chart_div">
-    	
-    </div>
-    
-    <!-- these are the rows with my responsive content -->
-    
-   <div class="row">
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-  <div class="col-md-1">.col-md-1</div>
-</div>
-<div class="row">
-  <div class="col-md-8">.col-md-8</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
-<div class="row">
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
-<div class="row">
-  <div class="col-md-6">.col-md-6</div>
-  <div class="col-md-6">.col-md-6</div>
-</div>
-    
- 
-   </div> 
-		</body>
-		</html>
+  	
+   <div class="container-fluid">
+			<!--just a box on html page -->
+
+			<div class="row">
+				<!--row is a convention in bootstrap -->
+
+			<div class="row">
+				<div class="col-md-8">
+					.col-md-8
+				</div>
+				<div class="col-md-4">
+					.col-md-4
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					.col-md-4
+				</div>
+				<div class="col-md-4">
+					.col-md-4
+				</div>
+				<div class="col-md-4">
+					.col-md-4
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					.col-md-6
+				</div>
+				<div class="col-md-6">
+					.col-md-6
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="hidden-md hidden-lg">small & extra small</div> <!--if it's not medium and not large, it's extra small -->
+				<div class="hidden-xs hidden-sm hidden-lg">medium</div>
+				<div class="hidden-xs hidden-sm hidden-md">large <div id='chart_div'</div>
+				<!-- If you have the div with the large in it, you need your whole div code to be
+					inside that box -->
+			</div>
+
+			<!--Div that will hold the pie chart-->
+			<!-- <div id="chart_div" class="Class"></div> -->
+
+		</div>
+	</body>
+</html>
