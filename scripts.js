@@ -8,11 +8,11 @@ var options = {
 	'title' : 'Pizza Eating',
 	'width' : 600,
 	'height' : 500,
-	'hAxis': {} //end of hAxis
+	'vAxis': {} //end of hAxis
 }; //end of options
 
 
-options.hAxis.gridlines = myGridlines; 
+options.vAxis.gridlines = myGridlines; 
 
   // Load the Visualization API and the piechart package.
   //credit Google with code sample
